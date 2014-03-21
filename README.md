@@ -1,1 +1,1 @@
-*These are  my configuration files .
+# These are  my configuration files .
