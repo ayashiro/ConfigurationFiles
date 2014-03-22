@@ -27,8 +27,7 @@ alias cp="cp -i"
 alias vi="vim"
 alias clang++='clang++ -stdlib=libc++ -std=c++11'
 alias emacs="emacs-24.3"
-#rlwraps
-alias javac="env LANG=C javac"
+alias grep="egrep"
 #for python
 alias ocaml="rlwrap ocaml"
 alias sftp="rlwrap sftp"
