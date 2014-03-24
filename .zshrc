@@ -36,3 +36,4 @@ alias sftp="rlwrap sftp"
 alias ls="ls -G"
 export PATH=${PATH}:/usr/texbin
 export PAGER="lv"
+alias npm="npm -g"
