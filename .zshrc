@@ -25,15 +25,17 @@ PROMPT2="%{[32m%}%_%%%{[m%} "
 alias mv="mv -i"
 alias cp="cp -i"
 alias vi="vim"
-alias clang++='clang++ -stdlib=libc++ -std=c++11'
-alias emacs="emacs-24.3"
 alias grep="egrep"
 #for python
 alias ocaml="rlwrap ocaml"
 alias sftp="rlwrap sftp"
 
 
-alias ls="ls -G"
+alias ls="ls --color"
+alias emacs="emacs -nw"
 export PATH=${PATH}:/usr/texbin
 export PAGER="lv"
 alias npm="npm -g"
+export PATH=/usr/local/cuda-8.0/bin${PATH:+:${PATH}}
+export LD_LIBRARY_PATH=/usr/local/cuda-8.0/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+export CUDA_HOME=/usr/local/cuda
